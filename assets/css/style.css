@@ -32,7 +32,7 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 header nav ul li {
@@ -51,8 +51,8 @@ header nav ul li {
 .hero-content{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #109c99;
-    position: absolute;
-    height: 45%;
+    /* position: absolute; */
+    height: 75%;
     width: 160%;
     top: 0;
     left: 0;
@@ -62,21 +62,18 @@ header nav ul li {
     flex-direction: column;
 }
 
+.herotext{
+    margin-top: 25px;
+}
+
 .img {
-    height: 150px;
+    height: 200px;
     width: 10%;
     background-image: url("../images/DSC00592.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 40%;
+    background-position-y: 35%;
 }
-
-/* .hero-content h2 {
-    border-style: solid;
-    border-color: #262929;
-    border-image: fill;
-    border-width: 5px;
-} */
 
 section {
     display: flex;
@@ -213,5 +210,4 @@ footer div {
 
 a {
     color: #109c99;
-    /* text-decoration: none; */
 }
