@@ -211,6 +211,7 @@ footer nav ul li a {
     font-family: sans-serif;
     margin: 60px 85px;
 }
+
 .box4 {
     width: 470px;
     height: 300px;
@@ -224,16 +225,19 @@ footer nav ul li a {
     font-family: sans-serif;
     margin: 60px 85px;
 }
+
 .box5 {
     width: 470px;
     height: 300px;
     border: 10px solid var(--light-teal);
-    background-image: url("../images/9504688_26690.jpg")
+    background-image: url("../images/8562880_25516.jpg");
     background-size: contain;
 }
-
 
 .box-body5 {
     font-family: sans-serif;
     margin: 60px 85px;
 }
+
+
+
