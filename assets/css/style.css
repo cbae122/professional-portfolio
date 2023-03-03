@@ -192,10 +192,18 @@ footer nav ul li a {
     background-size: contain;
 }
 
-
 .box-body2 {
     font-family: sans-serif;
-    margin: 60px 85px;
+    margin: 80px 50px;
+    float: right;
+    width: 250px;
+    height: 80px;
+    color: var(--grey);
+    background-color: var(--light-teal)
+}
+
+.boxboxbody2 {
+    font-family: sans-serif;
 }
 
 .box3 {
@@ -206,10 +214,18 @@ footer nav ul li a {
     background-size: contain;
 }
 
-
 .box-body3 {
     font-family: sans-serif;
-    margin: 60px 85px;
+    margin: 80px 50px;
+    float: right;
+    width: 250px;
+    height: 80px;
+    color: var(--grey);
+    background-color: var(--light-teal)
+}
+
+.boxboxbody3 {
+    font-family: sans-serif;
 }
 
 .box4 {
@@ -220,23 +236,40 @@ footer nav ul li a {
     background-size: contain;
 }
 
-
 .box-body4 {
     font-family: sans-serif;
-    margin: 60px 85px;
+    margin: 80px 50px;
+    float: right;
+    width: 250px;
+    height: 80px;
+    color: var(--grey);
+    background-color: var(--light-teal)
+}
+
+.boxboxbody4 {
+    font-family: sans-serif;
 }
 
 .box5 {
     width: 470px;
     height: 300px;
     border: 10px solid var(--light-teal);
-    background-image: url("../images/8562880_25516.jpg");
+    background-image: url("../images/9504688_26690.jpg");
     background-size: contain;
 }
 
 .box-body5 {
     font-family: sans-serif;
-    margin: 60px 85px;
+    margin: 80px 50px;
+    float: right;
+    width: 250px;
+    height: 80px;
+    color: var(--grey);
+    background-color: var(--light-teal)
+}
+
+.boxboxbody5 {
+    font-family: sans-serif;
 }
 
 
