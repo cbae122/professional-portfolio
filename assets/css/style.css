@@ -45,13 +45,13 @@ header nav ul li {
     background-position: center;
 }
 
-.hero-text {
+/* .hero-text {
     text-align: right;
     position: absolute
     color: var(--dark);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-}
+} */
 
 
 section {
