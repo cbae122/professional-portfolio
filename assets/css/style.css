@@ -17,6 +17,7 @@ body {
 
 header {
     /* display: flex; */
+    color: #109c99;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -31,28 +32,51 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
 }
 
 header nav ul li {
     display: inline-block;
 }
 
-.heroimg {
-    height: 500px;
+.hero {
+    height: 300px;
     width: 100%;
     background-image: url("../images/2400-dark-blue-and-black-banner-background.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* .hero-text {
-    text-align: right;
-    position: absolute
-    color: var(--dark);
+.hero-content{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-} */
+    color: #109c99;
+    position: absolute;
+    height: 45%;
+    width: 160%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.img {
+    height: 150px;
+    width: 10%;
+    background-image: url("../images/DSC00592.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+}
+
+/* .hero-content h2 {
+    border-style: solid;
+    border-color: #262929;
+    border-image: fill;
+    border-width: 5px;
+} */
 
 section {
     display: flex;
@@ -70,10 +94,14 @@ section div {
     flex-basis: 75%;
 }
 
+h3 {
+    color: #109c99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .projects a {
@@ -90,8 +118,10 @@ section div {
     height: 350px;
     width: 100%;
     background-image: url("../images/10016630_27277.jpg");
-    background-size: 25%;
+    background-size: 10%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid;
     border-color: #109c99;
     border-width: 5px;
@@ -101,9 +131,11 @@ section div {
 #project2 {
     height: 350px;
     width: 100%;
-    background-image: url("../images/10016630_27277.jpg");
+    background-image: url("../images/10016647_27282.jpg");
     background-size: 25%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid;
     border-color: #109c99;
     border-width: 5px;
@@ -113,9 +145,11 @@ section div {
 #project3 {
     height: 350px;
     width: 100%;
-    background-image: url("../images/10016630_27277.jpg");
+    background-image: url("../images/13732339_SL_030420_28660_03.jpg");
     background-size: 25%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid;
     border-color: #109c99;
     border-width: 5px;
@@ -125,9 +159,11 @@ section div {
 #project4 {
     height: 350px;
     width: 100%;
-    background-image: url("../images/10016630_27277.jpg");
+    background-image: url("../images/8562880_25516.jpg");
     background-size: 25%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid;
     border-color: #109c99;
     border-width: 5px;
@@ -137,9 +173,11 @@ section div {
 #project5 {
     height: 350px;
     width: 100%;
-    background-image: url("../images/10016630_27277.jpg");
+    background-image: url("../images/9504688_26690.jpg");
     background-size: 25%;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: solid;
     border-color: #109c99;
     border-width: 5px;
@@ -171,4 +209,9 @@ footer div {
 
 .contact-content ul li {
     display: inline-block;
+}
+
+a {
+    color: #109c99;
+    /* text-decoration: none; */
 }
