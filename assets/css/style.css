@@ -103,6 +103,7 @@ section div {
 h3 {
     color: var(--grey);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .projects {
@@ -119,8 +120,6 @@ h3 {
     flex-basis: 100%;
     height: 250px;
 }
-
-
 
 #project1 {
     height: 350px;
