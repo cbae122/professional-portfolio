@@ -103,7 +103,6 @@ section div {
 h3 {
     color: var(--grey);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .projects {
@@ -243,9 +242,15 @@ footer div {
 
 .contact-content ul li {
     display: inline-block;
-    /* border-bottom:  1px solid #109c99 */
 }
 
 a {
-    color: var(--grey)
+    color: var(--grey);
+}
+
+@media screen and (min-width: 768px) {
+    .projects {
+        /* flex: 0 0 50%;
+        max-width: 50%; */
+    }
 }
