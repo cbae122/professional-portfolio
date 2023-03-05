@@ -13,7 +13,7 @@
 ![Portfolio created to showcase future projects. You can use the nav to jump directly to that portion on the UI](./assets/images/portfolio-screenshot.jpeg)
 
 ## Website link
-- 
+- https://cbae122.github.io/professional-portfolio/
 
 ## Credits
 - Instructor Diarmuid - during office hours, showed how to correctly add flex to css. 
